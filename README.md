@@ -18,7 +18,7 @@
   - ex: `Improve: optimize image loading speed`
   - ex: `Improve: API response time`
 * Refactor
-  - リファクタリング
+  - リファクタリング(動作に変更はない)
   - ex: `Refactor: streamline error handling logic`
   - ex: `Refactor: user data processing`
 * Remove: 削除
@@ -30,8 +30,12 @@
   - ドキュメントの更新
   - ex: `Docs: update API documentation for new endpoints`
 * Fix: 修正
-  - バグの修正
-  - ex: `Fix: correct validation error in login form`
+  - 動作に大きな影響のない軽微な修正(バグ以外)
+  - ex: `Fix: ensure default timezone is UTC`
+  - ex: `Fix: correct typo in comments`
+* Bugfix: バグの修正
+  - ex: `Bugfix: resolve crash when opening settings`
+  - ex: `Bugfix: handle null values in API response correctly`
 * Chore: 雑用
   - 機能には影響しないこと
   - lintやビルド設定
@@ -41,4 +45,12 @@
 * Revise: 改定
   - 仕様変更
   - ex: `Revise: update design specifications for user interface`
-
+* Style: スタイル
+  - コードスタイルの変更
+  - フォーマッターの変更
+  - ex: `Style: reformat code with Prettier`
+  - ex: `Style: fix indentation in HTML files`
+* Test: テスト
+  - テストコードの追加、修正、削除
+  - ex: `Test: add unit tests for login module`
+  - ex: `Test: fix flaky integration tests`
